@@ -48,7 +48,7 @@ with pizza_tab:
     # The Pepperoni Column
     with pcol1:
         # Image
-        st.image('D:\Learning\Code Camp (2026)\The Project\Images\pepperoni.png')
+        st.image('images/pepperoni.png')
         # Name
         st.subheader('Pepperoni Pizza', text_alignment='center', anchor=False)
         # Size choices
@@ -65,7 +65,7 @@ with pizza_tab:
     # The Margerita Column
     with pcol2:
         # Image
-        st.image('D:\Learning\Code Camp (2026)\The Project\Images\margerita.png')
+        st.image('images/margerita.png')
         # Name
         st.subheader('Margerita Pizza', text_alignment='center', anchor=False)
         # Size Choices
@@ -80,7 +80,7 @@ with pizza_tab:
     # The Chicken Column
     with pcol3:
         # Image
-        st.image('D:\Learning\Code Camp (2026)\The Project\Images\chicken.png')
+        st.image('images/chicken.png')
         # Name
         st.subheader('Chicken Pizza', text_alignment='center', anchor=False)
         # Size Choices
