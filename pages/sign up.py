@@ -54,7 +54,7 @@ with account_form:
             st.success(f"Account created successfully for {name}! Please sign in.")
             
             # 9. Redirecting to sign-in page
-            st.switch_page("Pages/log in.py")
+            st.switch_page("pages/log in.py")
         else:
             st.error("Please fill in all required fields (Name, Email, Password, Address).")
 
@@ -64,5 +64,5 @@ st.divider()
 st.text("Already have an account?")
 
 if st.button("Log in instead", width='stretch'):
-    st.switch_page("Pages\log in.py")
+    st.switch_page("pages/log in.py")
 
