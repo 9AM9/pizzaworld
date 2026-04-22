@@ -8,7 +8,7 @@ st.title('Welcome to PizzaWorld 🍕', text_alignment='center')
 st.subheader('Delicious italian _cibo._', text_alignment='center')
 
 # Hero image
-st.image('Images\hero.jpg')
+st.image('images/hero.jpg')
 st.divider()
 
 ## Help & Chatbot Buttons
