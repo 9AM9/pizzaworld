@@ -16,7 +16,7 @@ if st.session_state['logged_in']:
     
     # 5. Button to navigate to menu page
     if st.button("Go to Menu", use_container_width=True):
-        st.switch_page("Pages/menu.py")
+        st.switch_page("pages/menu.py")
     
     # 6. Logout button and clearing session data
     if st.button("Log out"):
@@ -52,7 +52,7 @@ else:
                     st.session_state['name'] = "Customer"
                 
                 # 14. Redirect to menu page
-                st.switch_page("Pages/menu.py")
+                st.switch_page("pages/menu.py")
             else:
                 st.error("Please enter your email and password.")
     
@@ -62,4 +62,4 @@ else:
     
     # 16. Redirect to signup page
     if st.button("Sign Up Here", use_container_width=True):
-        st.switch_page("Pages/sign up.py")
+        st.switch_page("pages/sign up.py")
