@@ -20,10 +20,10 @@ with help_col:
     st.header("Hungry? 🍽")
     st.text("Take a look at our menu  with various types of italian food, pizzas, pasta, drinks, and any of what you can imagine!")
     if st.button("Explore Menu", width='stretch'):
-        st.switch_page("Pages\menu.py")
+        st.switch_page("pages/menu.py")
 
 with bot_col:
     st.header("Need help? 🤖")
     st.text("Nutrition facts? Work info? Anything you want to know? Ask our AI assistant and get your answers as fast and smart as possible!")
     if st.button("PizzAI", width='stretch'):
-        st.switch_page("Pages\chatbot.py")
+        st.switch_page("pages/chatbot.py")
