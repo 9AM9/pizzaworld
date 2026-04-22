@@ -3,32 +3,32 @@ import streamlit as st
 
 # Setting pages
 homepage = st.Page(
-    page = 'Pages\home.py',
+    page = 'pages\home.py',
     title = "Home",
     icon = "🏡",
     default = True
     )
 
 chatbot_page = st.Page(
-    page = 'Pages\chatbot.py',
+    page = 'pages\chatbot.py',
     title = "PizzAI",
     icon = "💬"
     )
 
 login_page = st.Page(
-    page = 'Pages\log in.py',
+    page = 'pages\log in.py',
     title = "Login",
     icon = "🔐"
     )
 
 signup_page = st.Page(
-    page = 'Pages\sign up.py',
+    page = 'pages\sign up.py',
     title = "Sign up",
     icon = "📝"
     )
 
 menu_page = st.Page(
-    page = "Pages\menu.py",
+    page = "pages\menu.py",
     title = "Menu",
     icon = "📜"
 )
